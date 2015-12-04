@@ -1,0 +1,52 @@
+div#map{
+	position:absolute;
+	bottom : 0px;
+	border: 0px;
+	width : 100%;
+}
+
+div#slice{
+	position:absolute;
+	bottom : 0px;
+	border: 0px;
+	width : 100%;
+
+}
+
+div#sliceContainer{
+/* TRIKS FOR SQUARE */
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+}
+
+div#mapContainer{
+/* TRIKS FOR SQUARE */
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+}
+
+div#shiftkey{
+	position: absolute;
+	width: 38px;
+	height: 26px;
+	bottom: 20px;
+	right: 20px;
+	z-index: 300;
+	cursor: none;
+	background-image:url('../img/shift.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	opacity: 0.5;
+	visibility: hidden;
+}
+
+
+div#list_tree div{
+	margin-left: 20px;
+}
+
+div#list_tree p{
+	margin-top: 10px;
+}

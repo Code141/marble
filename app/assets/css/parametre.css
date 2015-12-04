@@ -1,0 +1,223 @@
+div.masque{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	visibility: hidden;
+}
+
+div.masque div.change{
+	font-size: 2em;
+	width: 300px;
+	padding: 20px;
+
+	text-align: center;
+	font-family: geo;
+	margin-top: 50px; 
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333333;
+
+	border-radius: 15px;
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+
+}
+
+form.changevalue{
+	margin-top: 20px;
+	font-size: 0.8em; 
+}
+
+form.changevalue input{
+	font-size: 0.6em; 
+	text-align: center;
+	width: 200px;
+	padding: 5px 10px 5px 10px;
+	margin: 10px;
+	background-color: #222222;
+	border-radius: 10px;
+	box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	color: #FFFFFF;
+}
+
+form.changevalue div.button{
+	width: 300px;
+	height: 30px;
+	margin-top: 20px;
+	font-size: 0.8em; 
+color: rgb(85, 85, 85);
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+
+
+form.changevalue div.button div.cancel{
+	float: left;
+	margin-left: 30px
+}
+
+form.changevalue div.button div.okay{
+	float: right;
+	margin-right: 30px
+}
+
+form.changevalue div.button div.cancel:hover{
+color: rgb(230, 230, 230);
+text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+}
+
+form.changevalue div.button div.okay:hover{
+color: rgb(230, 230, 230);
+text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+}
+input.changevalue[type="radio"] {
+    display:none;
+}
+input.changevalue[type="radio"] + label {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    margin: 25px;
+    cursor:pointer;
+}
+
+input.changevalue#male[type="radio"] + label {
+    background:url(../img/glyphicons_perso/glyphicons_003_user.png) left top no-repeat;
+}
+
+input.changevalue#male[type="radio"]:checked + label {
+    background:url(../img/glyphicons_perso/glyphicons_003_user_checked.png) 0px top no-repeat;
+}
+
+input.changevalue#female[type="radio"] + label {
+    background:url(../img/glyphicons_perso/glyphicons_004_girl.png) left top no-repeat;
+}
+
+input.changevalue#female[type="radio"]:checked + label {
+    background:url(../img/glyphicons_perso/glyphicons_004_girl_checked.png) 0px top no-repeat;
+}
+
+
+img.profilpicmedium{
+	width:150px;
+	height:150px;
+	margin: 20px;
+	padding: 5px;
+	float: right;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+img.profilpicmedium:hover{
+	width:150px;
+	height:150px;
+	padding: 5px;
+	background-color: #FF3333;
+}
+
+img.profilpicsmall{
+	width:100px;
+	height:100px;
+	margin: 20px auto 0px auto;
+	padding: 5px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+div.contact{
+	width:100%;
+	height:200px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	background-color: rgba(255, 255, 255, 0.03);
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.65);
+}
+
+div.contact p.info{
+	color: #FF3333;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: geo;
+	font-size: 3em;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+
+div.contact p.info a:hover{
+	color: #FFFFFF;
+}
+
+div.contact p.info span{
+	color: #FFFFFF;
+	font-size: 0.5em;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+div.contact p.info span:hover{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-top: -1px;
+	margin-right: -1px;
+	font-size: 0.5em;
+	box-shadow: inset 0px 5px 10px rgba(0,0,0,0.7);
+}
+
+div.contact p.info span#firstname{
+	color: #FF3333;
+	font-size: 1em;
+}
+
+div.contact p.info span#lastname{
+	color: #FFFFFF;
+	font-size: 0.6em;
+}
+
+div.contact p.info span.gender#Male{
+	float: right;
+	width: 27px;
+	height: 27px;
+	display: block;
+	margin-top: 5px;
+	background-image:url('../img/glyphicons_white/glyphicons_246_male.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+div.contact p.info span.gender#Male:hover{
+	background-image:url('../img/glyphicons_perso/glyphicons_246_male.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+div.contact p.info span.gender#Female{
+	float: right;
+	width: 27px;
+	height: 27px;
+	display: block;
+	margin-top: 5px;
+	background-image:url('../img/glyphicons_white/glyphicons_247_female.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+div.contact p.info span.gender#Female:hover{
+	background-image:url('../img/glyphicons_perso/glyphicons_247_female.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+
+
+div.contact p.info span#birthday{
+	color: #FFFFFF;
+	font-size: 0.50em;
+}

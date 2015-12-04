@@ -1,0 +1,130 @@
+div.context{
+	margin: 20px 10px 10px 10px;
+	padding: 10px 10px 5px 10px; 
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.2);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.context p{
+	padding: 5px; 
+}
+
+div.slice{
+	margin: 20px 10px 10px 10px;
+	padding: 10px 10px 10px 10px; 
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.2);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ownedSlice{
+	color: rgba(85, 210, 239, 1);
+}
+
+div.slice hr{
+	margin-top: 3px;
+}
+
+p.slicetitle{
+	font-size: 1.4em;
+	color: rgba(166, 226, 46, 1);
+	margin: 5px;
+}
+
+div.slice span.score{
+	color: rgba(253, 151, 32, 1);
+	position: absolute;
+	left: 50%;
+	font-family: din1451;
+	font-size: 1.2em;
+	margin-top: 5px; 
+}
+
+div.slice span.name{
+	font-family: geo;
+	font-size: 1.2em;
+	color: rgba(249, 38, 114, 1);
+}
+
+div.slice span.destroyAdj{
+float: right;
+width: 20px;
+height: 20px;
+	background-image:url('../img/glyphicons/glyphicons_197_remove.png');
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: 20px;
+}
+
+div.slice span.destroyAdj:hover{
+	background-image:url('../img/glyphicons_white/glyphicons_197_remove.png');
+
+}
+
+div.slice hr{
+	margin-top: 5px;
+	background-color: rgba(174, 129, 225, 1);
+	height: 1px;
+	border: 0;
+}
+
+form.add_adj{
+
+}
+
+input#add_adj{
+background-color: rgba(0,0,0,0.4);
+border-radius: 5px 5px 5px 5px;
+border: 1px solid rgba(249, 38, 114, 1);
+color: rgba(249, 38, 114, 1);
+box-shadow: inset 0px -5px 5px rgba(255, 255, 255, 0.1);
+font-size: 0.8em;
+width: 100%;
+padding: 5px 0px 3px 0px;
+}
+
+form.add_slice{
+
+}
+
+input#add_slice{
+background-color: rgba(0,0,0,0.4);
+border-radius: 5px 5px 5px 5px;
+border: 1px solid rgba(85, 210, 239, 1);
+color: rgba(85, 210, 239, 1);
+box-shadow: inset 0px -5px 5px rgba(255, 255, 255, 0.1);
+font-size: 0.8em;
+width: 80%;
+margin: 0px 0px 0px 10%;
+
+padding: 5px 0px 3px 0px;
+}
+
+div.more{
+	width: 35%;
+	height: 13px;
+	background-image:url('../img/glyphicons_white/glyphicons_190_circle_plus.png');
+	background-size: 10px;
+	background-position: 5px center;
+	background-repeat:no-repeat;
+	float: right;
+	padding-left: 20px;
+	margin-left: 15px;
+	margin-bottom: 4px;
+}
+
+div.more:hover{
+	background-image:url('../img/glyphicons_perso/glyphicons_190_circle_plus.png');
+
+}
+
+div.suggest_result{
+	display: inline-block;
+}

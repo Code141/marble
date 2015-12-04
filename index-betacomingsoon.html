@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video, input {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		/*vertical-align: middle;*//*DELETED BY ME*/
+	}
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	img{
+		width:100%;
+	}
+
+	body{
+		color: #ffffff;
+		background-color: #FF0000;
+	}
+
+	/*------------------HEADER------------------*/
+
+	@font-face {
+		font-family: 'din1451';
+		src: url('din1451stdengschrift.ttf');
+	}
+
+	@font-face {
+		font-family: 'geo';
+		src: url('GeosansLight.ttf');
+	}
+
+	@font-face {
+		font-family: 'geo-oblique';
+		src: url('GeosansLight-Oblique.ttf');
+	}
+
+	body{
+		font-family: din1451;
+		background-color: #262626;
+		text-decoration: none;
+		color: #555555;
+	}
+
+	div.wrap{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	/*------------------HEADER------------------*/
+
+	header.login{
+		position: absolute;
+		top:50%;
+		margin-top: -200px;
+		width: 100%;
+		height: 75px;
+		background: url("header.png") repeat-x;
+		box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.8);
+	}
+
+	div.header_bar{
+		height:60px;
+		width: 100%;
+		margin-top: 7px;
+		background:#e6e6e6;
+		color: #000000;
+		border-top: 1px solid #FFFFFF;
+	}
+
+	div.header_shadows{
+		margin-top: -8px;
+		height: 75px;
+		width: 100%;
+		position:absolute;
+		float:left;
+	}
+
+	div.header_shadows_left{
+		height: 75px;
+		width: 50%;
+		background: url("header_shadow_left.png");
+		background-size:100% 75px;
+		float:left;
+	}
+
+	div.header_shadows_right{
+		height: 75px;
+		width: 50%;
+		background: url("header_shadow_right.png");
+		background-size:100% 75px;
+		float:right;
+	}
+
+	header.login p{
+		width:100%;
+		text-align: center;
+		font-size: 4.3em;
+		margin-top: 6px;
+		text-shadow:1px 1px 0px rgba(255, 255, 255, 1);
+	}
+
+	span.login{
+		top:50%;
+		margin-top: 2px;
+		left: 50%;
+		margin-left: 95px;
+		position: absolute;
+		font-size: 2em;
+		color:#F9F9F9;
+		text-shadow:1px 1px 1.5px rgba(0, 0, 0, 0.8);
+	}
+
+	section.login{
+		height: 170px;
+		width: 500px;
+		top:50%;
+		left: 50%;
+		margin-top: -85px;
+		margin-left: -250px;
+		position:absolute;
+	}
+
+	p.definition{
+		color: #777777;
+		font-size: 1.6em;
+		text-align: center;
+		font-family: geo;
+		margin-top: 15px;
+		margin-bottom: 25px;
+		text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+	}
+
+	p.comming{
+		color: #FF3333;
+		text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+		font-size: 1.2em;
+		text-align: center;
+		font-family: geo-oblique;
+		margin-top: 30px;
+	}
+
+	a{
+		text-decoration: none;
+		font-style: none;
+		color: #000000;
+		text-shadow:1px 1px 0px rgba(255, 255, 255, 0.05);
+	}
+
+	a:hover{
+		text-decoration: none;
+		font-style: none;
+		color: #AAAAAA;
+		text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+		transition-duration: 2s;
+		transition-timing-function: ease;
+	}
+
+	p.portfolio{
+		font-size: 1.3em;
+		text-align: center;
+		font-family: geo-oblique;
+		bottom: 20px;
+		position: absolute;
+		width: 100%;
+	}
+	</style>
+
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-39218255-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+
+	<title>
+		CODE141
+	</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<header class="login">
+			<div class="header_bar">
+				<div class="header_shadows">
+					<div class="header_shadows_left"></div>
+					<div class="header_shadows_right"></div>
+				</div>
+				<p>CODE141</p>
+				<span class="login">.FR</span>
+			</div>
+		</header>
+		<section class="login">
+			<p class="definition">
+				Contextualised Objects Definitions Exchange 
+			</p>
+			<p class="comming">
+				Bêta coming soon...
+			</p>
+		</section>
+		<p class="portfolio">
+			<a href="Portfolio">Lambinet Geoffrey's brainchild . . .</a>
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,315 @@
+div.bar{
+	height:61px;
+	float:left;
+	margin-top: 7px;
+	background:#e6e6e6;
+	box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 1), inset 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+div.bar_button{
+	float:left;
+	height:61px;
+	width:5%;
+	margin-top: 7px;
+	background:#e6e6e6;
+	box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 1), inset 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+div.bar_button_active{
+	float:left;
+	height:61px;
+	width:5%;
+	margin-top: 7px;
+	background:#404040;
+	box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 1), inset 0px 10px 10px rgba(0, 0, 0, 0.5), inset 0px -5px 15px rgba(255, 255, 255, 0.20);
+}
+
+nav div.marble{
+	background-image:url('../img/glyphicons/glyphicons_020_home.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.marble:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_020_home.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.arborescance{
+	background-image:url('../img/glyphicons/glyphicons_422_git_branch.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.arborescance:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_422_git_branch.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.search{
+	background-image:url('../img/glyphicons/glyphicons_096_vector_path_polygon.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.search:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_096_vector_path_polygon.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.friends{
+	background-image:url('../img/glyphicons/glyphicons_088_address_book.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.friends:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_088_address_book.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.friends.bar_button_active{
+	background-image:url('../img/glyphicons_perso/glyphicons_088_address_book.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.marble.bar_button_active{
+	background-image:url('../img/glyphicons_perso/glyphicons_020_home.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.parametre.bar_button_active{
+	background-image:url('../img/glyphicons_perso/glyphicons_137_cogwheels.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.message.bar_button_active{
+	background-image:url('../img/glyphicons_perso/glyphicons_010_envelope.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+
+nav div.user{
+	background-image:url('../img/glyphicons/glyphicons_003_user.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.user:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_003_user.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.group{
+	background-image:url('../img/glyphicons/glyphicons_043_group.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.group:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_043_group.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.identity{
+	background-image:url('../img/glyphicons/glyphicons_352_nameplate.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.identity:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_352_nameplate.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+
+nav div.message{
+	background-image:url('../img/glyphicons/glyphicons_010_envelope.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.message:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_010_envelope.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.messagenew{
+	background-image:url('../img/glyphicons/glyphicons_124_message_plus.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.messagenew:hover{
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_124_message_plus.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.parametre{
+	background-image:url('../img/glyphicons/glyphicons_137_cogwheels.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.parametre:hover{	
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_137_cogwheels.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.help{
+	background-image:url('../img/glyphicons/glyphicons_307_life_preserver.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.help:hover{	
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_307_life_preserver.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.exit{
+	background-image:url('../img/glyphicons/glyphicons_388_exit.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.exit:hover{	
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_388_exit.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+
+nav div.setting{
+	background-image:url('../img/glyphicons/glyphicons_280_settings.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.setting:hover{	
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_280_settings.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+nav div.path{
+	background-image:url('../img/glyphicons/glyphicons_308_share_alt.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+nav div.path:hover{	
+	background:#ffffff;
+	background-image:url('../img/glyphicons/glyphicons_308_share_alt.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+div.research{
+	width: 60%;	
+}
+
+div.searchbar{
+	margin: 0 auto;
+	height:35px;
+	width: 250px;
+}
+
+input.search{
+	height:35px;
+	width: 250px;
+	margin: 13px 0px 0px 0px;
+	border-radius: 8px;
+	background-color: #c9c9c9;
+	box-shadow: inset -1px -1px 0px rgba(255, 255, 255, 1), inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	font-family: geo;
+	font-size: 1.2em;
+	color: #444444;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+div.dropzone{
+	transition-property: height, bottom;
+	transition-duration: 1s, 1s;
+	width: 60%;
+	overflow: hidden;
+	position:absolute;
+	margin-top: 0px;
+	height:68px;
+	bottom: 7px;
+	box-shadow: -1px 0px 0px rgb(0, 0, 0) inset, 0px -1px 0px rgb(255, 255, 255) inset;
+}
+
+div.dropzone:hover{
+	position:absolute;
+	transition-property: height, bottom;
+	transition-duration: 1s;
+	transition-delay: 2s;
+	height: 500px;
+	bottom: 7px;	
+}
+
+div.top_pad{
+	height: 3px;
+	width: 100%;
+	border-top:1px solid black;
+	border-bottom: 3px solid black;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 1) inset;
+	background:#e6e6e6;
+}
+
+div.bottom_pad{
+	height: 3px;
+	width: 100%;
+	border-bottom:1px solid black;
+	border-top: 3px solid black;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 1) inset;
+	background:#e6e6e6;
+}
+
+div#search_path{
+	box-shadow: 50px 10px 30px rgba(0, 0, 0, 0.4) inset;
+	height:61px;
+	border-right: 1px solid black;
+	background:#e0e0e0;
+}
+
+div.search_path_element{
+	font-size: 1.5em;
+
+	float:left;
+	height:40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 21px;
+	box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 1), inset 1px 1px 0px rgba(255, 255, 255, 1);
+	background:#e6e6e6;
+}

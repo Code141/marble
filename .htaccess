@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteCond $1 !(\.html|\.css|\.php|\.js|\.jpg|\.png|\.ttf)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+#----------------------------------------------#
+#option allowaccess index - navigation interdite -> 404
+
+
+#RewriteEngine On
+#RewriteCond $1 !(\..*)
+#RewriteRule ^(.*)$ index.php/$1 [L]

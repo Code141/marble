@@ -1,0 +1,189 @@
+/*------------------FRIENDS------------------*/
+/*------Section------*/
+a:hover{
+	color: #FF3333;
+}
+
+div.user_identity{
+	background-color: #FFFF00;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);	
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+section.center{
+	font-family: geo;
+}
+
+p.friend_name{
+	top: 10px;
+	right: -15px;
+	padding-left: 15px;
+	position: absolute;
+	width: 60%;
+	font-size: 2.2em;
+	color: #FF3333;
+	float: right;
+	z-index: 200;
+	text-shadow: 2px 2px 2px rgba(0,0,0, 0.5); 
+	line-height:30px; 
+
+}
+
+p.friend_name span{
+	color: #FFFFFF;
+	font-size: 0.55em;
+}
+
+div.user_identity img.friend_profilpic{
+	position: relative;
+	width: 40%;
+	margin: 5px 5px 0px 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);	
+}
+
+
+div.last_activities{
+	position: absolute;
+}
+
+p.adjectif{
+	margin: 10px;
+	padding:5px 0px 5px 44px; 
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-image:url('../img/glyphicons_white/glyphicons_097_vector_path_line.png');
+	background-size: 24px 24px;
+	background-repeat:no-repeat;
+	background-position: 10px center;
+}
+
+p.tree{
+	margin-right: 20px;
+	padding:5px 0px 5px 44px; 
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-image:url('../img/glyphicons_white/glyphicons_223_chevron-right.png');
+	background-size: 15px 22px;
+	background-repeat:no-repeat;
+	background-position: 13px center;
+}
+
+p.add_tree{
+	margin: 10px;
+	padding:5px 0px 5px 44px; 
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-image:url('../img/glyphicons_white/glyphicons_423_git_create.png');
+	background-size: 21px 24px;
+	background-repeat:no-repeat;
+	background-position: 13px center;
+}
+
+p.adjectif:hover{
+	background-color: rgba(255,255,255,0.02);
+}
+
+p.tree:hover{
+	background-color: rgba(255,255,255,0.02);
+}
+
+p.add_tree:hover{
+	background-color: rgba(255,255,255,0.02);
+}
+
+div.last_activities p span.date{
+	color: #AAAAAA;
+	font-size: 0.8em;
+}
+
+div.last_activities p span.argument{
+	color: #FF3333;
+	font-size: 0.8em;
+	font-family: geo;
+}
+
+div.last_activities p span.note{
+	position: relative;
+	float: right;
+	font-size: 2em;
+	top:-10px;
+	left: -10px;
+	color:#FF3333;
+	text-shadow: 2px 2px 2px rgba(0,0,0, 0.5); 
+}
+
+
+img.friend_profilpic_min{
+	width:24px;
+	border: 1px solid #FFFFFF;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+div.user_identity div.message{
+	float: right;
+	top: 85px;
+	right: 7px;
+	position: relative;
+	background-image:url('../img/glyphicons_white/glyphicons_010_envelope.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height: 24px;
+	width: 24px;
+	opacity: 0.2;
+}
+
+div.user_identity div.message:hover{
+	opacity: 0.9;
+
+}
+
+div.user_identity div.user_add{
+	float: right;
+	top: 85px;
+	right: 25px;
+	position: relative;
+	background-image:url('../img/glyphicons_white/glyphicons_006_user_add.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height: 22px;
+	width: 28px;
+	opacity: 0.2;
+}
+
+div.user_identity div.user_add:hover{
+	opacity: 0.9;
+
+}
+
+
+aside.right div.user{
+	width: 90%;
+	margin: 10px auto 10px;
+	height: 60px;
+	overflow: hidden;
+	clear: both;
+}
+
+aside.right div.user:hover{
+	margin-left: 5px;
+}
+
+aside.right div.user img{
+	width:46px;
+	height:46px;
+	padding-top: 2px;
+	padding-right: 10px;
+	float: left;
+}
+
+/*------Section------*/
+div.asideliste{
+	height:33.333%;
+	overflow: hidden;
+	transition-property: height;
+  	transition-duration: 0.5s;
+  	transition-timing-function: ease-in-out;
+}
